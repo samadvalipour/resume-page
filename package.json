@@ -1,0 +1,25 @@
+{
+  "name": "resume-page",
+  "version": "1.0.0",
+  "description": "a web page to present myself",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samadvalipour/resume-page.git"
+  },
+  "author": "samad valipour",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/samadvalipour/resume-page/issues"
+  },
+  "homepage": "https://github.com/samadvalipour/resume-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "daisyui": "^2.14.3"
+  }
+}
