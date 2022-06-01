@@ -170,7 +170,7 @@
             <circle cx="16" cy="16" r="7" stroke="#ffc107" stroke-width="2" fill=transparent />
             Sorry, your browser does not support inline SVG.
           </svg>
-          <span>شرایط همکاری  : </span> <span class="mx-1 text-primary-content/50">پروژه ای، دورکاری</span>
+          <span>شرایط همکاری : </span> <span class="mx-1 text-primary-content/50">پروژه ای، دورکاری</span>
         </div>
       </div>
     </div>
@@ -199,45 +199,88 @@
         </div>
       </div>
       <div id="skills"
-      class="card py-8 px-8 bg-base-200 lg:w-1/2 lg:mr-2 mt-4 lg:mt-0 shadow-xl  justify-items-start flex-colomn shadow-xl">
-      <h1 class=" text-primary">مهارت ها</h1>
-      <div class="divider"></div>
-      <div class=" mb-4">
-        <h1>python</h1>
-        <progress class=" progress progress-primary" value="70" max="100"></progress>
-      </div>
+        class="card py-8 px-8 bg-base-200 lg:w-1/2 lg:mr-2 mt-4 lg:mt-0 shadow-xl  justify-items-start flex-colomn shadow-xl">
+        <h1 class=" text-primary">مهارت ها</h1>
+        <div class="divider"></div>
+        <div class=" mb-4">
+          <h1>python</h1>
+          <progress class=" progress progress-primary" value="70" max="100"></progress>
+        </div>
 
-      <div class=" mb-4">
-        <h1>flask</h1>
-        <progress class=" progress progress-primary" value="50" max="100"></progress>
-      </div>
+        <div class=" mb-4">
+          <h1>flask</h1>
+          <progress class=" progress progress-primary" value="50" max="100"></progress>
+        </div>
 
-      <div class=" mb-4">
-        <h1>image processing</h1>
-        <progress class="progress progress-primary" value="50" max="100"></progress>
-      </div>
+        <div class=" mb-4">
+          <h1>image processing</h1>
+          <progress class="progress progress-primary" value="50" max="100"></progress>
+        </div>
 
-      <div class=" mb-4">
-        <h1>html</h1>
-        <progress class="progress progress-primary" value="50" max="100"></progress>
-      </div>
+        <div class=" mb-4">
+          <h1>git</h1>
+          <progress class="progress progress-primary" value="50" max="100"></progress>
+        </div>
 
-      <div class=" mb-4">git
-        <h1>css</h1>
-        <progress class="progress progress-primary" value="50" max="100"></progress>
-      </div>
+        <div class=" mb-4">
+          <h1>html</h1>
+          <progress class="progress progress-primary" value="50" max="100"></progress>
+        </div>
 
+        <div class=" mb-4">
+          <h1>css</h1>
+          <progress class="progress progress-primary" value="50" max="100"></progress>
+        </div>
+
+      </div>
     </div>
-    </div>
-    <div id="projects" class="card py-8 px-8 bg-base-200  shadow-xl my-4 justify-items-start flex-colomn shadow-xl">
+    <div id="projects" class="card py-8 px-8 bg-base-200 shadow-xl my-4 justify-items-start flex-col gap-1">
+
       <h1 class=" text-primary">پروژه ها</h1>
       <div class="divider"></div>
-      <h1 class="mb-2 text-primary-content">وب اپلیکیشن استخراج نتایج آزمایش خون</h1>
-      <p class=" mb-2 text-primary-content/50">در این پروژه وب اپلیکیشنی برای استخراج و ذخیره سازی نتایج آزمایش خون
-        افراد توسعه داده شده است </p>
+      <div class="flex flex-col gap-4">
+        <div id="project_01" class="card py-8 px-8 bg-base-300 shadow-xl rounded-box border-base-300">
+          <h1 class="mb-2 text-primary-content">وب اپلیکیشن استخراج نتایج آزمایش خون</h1>
+          <p class=" mb-2 text-primary-content/50">در این پروژه وب اپلیکیشنی برای استخراج و ذخیره سازی نتایج آزمایش خون
+            افراد توسعه داده شده است </p>
+          <div>
+            <a class="btn btn-ghost"
+              href="https://gitlab.com/samadvalipour/an-application-for-preparing-patients-medical-records-by-scanning-test-sheets">
+              <svg width="30px" height="30px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                <path style=" stroke:none;fill-rule:nonzero;fill:#ffffff;fill-opacity:1;"
+                  d="M231.92773,169.78029l-94.82031,65.64454a16.07612,16.07612,0,0,1-18.21484,0L24.07227,169.78029a16.03981,16.03981,0,0,1-6.35254-17.27783L45.04883,50.0176a12.00012,12.00012,0,0,1,22.831-1.12109L88.544,104h78.9121l20.66407-55.10449a12.00021,12.00021,0,0,1,22.83056,1.12109l27.32959,102.48584A16.03981,16.03981,0,0,1,231.92773,169.78029Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div id="project_02" class="card py-8 px-8 bg-base-300 shadow-xl rounded-box border-base-300">
+          <h1 class="mb-2 text-primary-content">سرویس استخراج مشخصات ماشین از تصویر کارت ماشین</h1>
+          <p class=" mb-2 text-primary-content/50">در این پروژه سرویسی برای استخراج اطلاعات مهم خودرو از تصویر کارت
+            خودرو پیاده سازی شده است این پروژه منبع بسته (close scorce) است.</p>
+        </div>
+
+        <div id="project_03" class="card py-8 px-8 bg-base-300 shadow-xl rounded-box border-base-300">
+          <h1 class="mb-2 text-primary-content">برنامه تصحیح خودکار پاسخنامه آزمون تستی</h1>
+          <p class=" mb-2 text-primary-content/50">در این پروژه برنامه ای برای تصحیح خودکار پاسخنامه آزمون تستی پیاده
+            سازی شده است</p>
+          <div>
+            <a class="btn btn-ghost" href="https://github.com/samadvalipour">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                width="32px" height="32px">
+                <g id="surface60847839">
+                  <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;"
+                    d="M 15 2 C 7.820312 2 2 7.8125 2 14.976562 C 2 20.710938 5.726562 25.578125 10.890625 27.296875 C 11.539062 27.414062 12 26.75 12 26.25 C 12 25.945312 12.007812 25.578125 12 24.5 C 8.382812 25.28125 7.25 22.75 7.25 22.75 C 6.65625 21.25 5.9375 20.820312 5.9375 20.820312 C 4.757812 20.015625 6.023438 20.039062 6.023438 20.039062 C 7.328125 20.125 8 21.25 8 21.25 C 9 23 11.257812 22.828125 12 22.5 C 12 21.703125 12.085938 21.125 12.304688 20.757812 C 8.21875 20.039062 5.992188 17.679688 6 14.414062 C 6.007812 12.484375 6.671875 10.984375 7.75 9.875 C 7.28125 9.28125 6.960938 7.25 7.921875 6 C 10.335938 6 11.773438 7.742188 11.773438 7.742188 C 11.773438 7.742188 12.90625 7.25 14.992188 7.25 C 17.085938 7.25 18.210938 7.71875 18.210938 7.71875 C 18.210938 7.71875 19.65625 6 22.070312 6 C 23.03125 7.25 22.710938 9.28125 22.335938 9.835938 C 23.367188 10.921875 24 12.421875 24 14.414062 C 24 17.679688 21.78125 20.039062 17.703125 20.75 C 17.960938 21.140625 18 21.6875 18 22.5 C 18 24.234375 18 25.820312 18 26.25 C 18 26.75 18.453125 27.421875 19.117188 27.296875 C 24.28125 25.570312 28 20.710938 28 14.976562 C 28 7.8125 22.179688 2 15 2 Z M 15 2 " />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
 
     </div>
-   
+
 
   </div>
   </div>
